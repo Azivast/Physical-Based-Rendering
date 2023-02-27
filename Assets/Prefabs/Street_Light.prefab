@@ -51,7 +51,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 4102882926061088057}
   - component: {fileID: 4102882926061088062}
   - component: {fileID: 4102882926061088063}
+  - component: {fileID: 6172597301747084078}
   m_Layer: 0
   m_Name: Street_Light
   m_TagString: Untagged
@@ -199,3 +200,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &6172597301747084078
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102882926061088060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 29.417366
+  m_Height: 447.28488
+  m_Direction: 1
+  m_Center: {x: 0, y: 218.81001, z: 0}

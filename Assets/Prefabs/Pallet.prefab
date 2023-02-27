@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 3701417609468692609}
   - component: {fileID: 8372203234619127913}
   - component: {fileID: 3015464744323863887}
+  - component: {fileID: 212712194}
   m_Layer: 0
   m_Name: Pallet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3701417609468692609
 Transform:
@@ -61,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 60920edb1a2823246a7089cf5d1655fb, type: 2}
+  - {fileID: 2100000, guid: 494b5bfc49a67bf4c988fadf54586dc2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &212712194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4483166828909028111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 120.000015, y: 12.150756, z: 109.153595}
+  m_Center: {x: -0.000000017189734, y: 5.1182637, z: 0.57679176}

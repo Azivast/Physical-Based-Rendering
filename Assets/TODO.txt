@@ -1,3 +1,5 @@
 Fixa material:  Kolla så att maps stämmer överens med hur unitys material fungerar.
                 Fixa metal map på street light?
                 Metal map på trash can - fungerar ej
+                Generator shack height map invertera
+                Ta bort Mirror material?
