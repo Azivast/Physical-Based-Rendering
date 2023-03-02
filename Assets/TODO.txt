@@ -1,4 +1,0 @@
-Alla material klara.
-Fixa UV
-Dubbelkolla krav
-Få ner tri count i hörnen
